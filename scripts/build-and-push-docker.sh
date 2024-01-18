@@ -2,7 +2,7 @@
 
 PROJECT_BASE_DIR=/Users/provility/workspaces/kubernetes-node
 DOCKER_IMAGE_TAG=v$(date +'%Y%m%d%H%M%S')
-ACCESS_TOKEN=dckr_pat_YRt-jqQI3AZn53Rj-223ylyjNtI
+ACCESS_TOKEN=11111
 
 echo "LOGIN TO DOCKER"
 echo "$ACCESS_TOKEN" | docker login --username mohamedumar --password-stdin
